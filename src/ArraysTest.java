@@ -16,14 +16,27 @@ public class ArraysTest {
                 {
                         new String[]{"Python", "JAVA", "PHP", "C#", "C++", "SQL"},
                         new String[]{"MySQL", "SQL", "SQLite", "Oracle", "PostgreSQL", "DB2", "JAVA"},
-                        new String[]{"JAVA", "SQL"}
+                        new String[]{"JAVA", "SQL"},
+
+
                 },
                 {
                         new String[]{"here", "is", "some", "text", ".", "text"},
                         new String[]{"some", "text", "above", "."},
                         new String[]{"some", "text", "."}
-                }
-                // TODO add 2 more test data here
+                },
+                {
+                        new String[]{"quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"},
+                        new String[]{"quick", "lazy", "dog", "aint", "jumping", "for", "nobody"},
+                        new String[]{"quick", "lazy", "dog"}
+                },
+                {
+                        new String[]{"hello", "can", "i", "get", "ummmmm", "one", "borgar"},
+                        new String[]{"hi", "can", "i", "get", "one", "soda"},
+                        new String[]{"can", "get", "one", "i"}
+                },
+
+
         };
     }
 
